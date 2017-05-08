@@ -4,5 +4,7 @@ runtime: php55
 api_version: 1
 
 handlers:
+- url: /foo
+  script: second.php
 - url: /.*
   script: indexeateasy.php
